@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_marginTop="?attr/actionBarSize">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+        <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            <!-- TODO: Update blank fragment layout -->
+
+            <ImageView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="395dp"
+                    android:text="IT Fragment"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/tum_logo"
+                    android:id="@+id/imageView2"
+                    />
+
+            <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+                <android.support.v7.widget.CardView
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textAlignment="viewStart"
+                            android:text="Technology University Mandalay  (TUM)"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/it_dep_name"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:textSize="24sp"
+                            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:padding="3dp"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:layout_marginTop="2dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:text="      ကျွန်တော်တို့ Technological University Mandalay(TUM)ဟာ မြန်မာပြည်ရဲ့ သက်တမ်းကြာမြင့်ပြီဖြစ်သော အင်ဂျင်နီယာ ကျောင်းများထဲမှ တစ်ခုအပါအဝင်ဖြစ်ပါတယ်။ မန္တလေးမြို့ရဲ့ တောင်ဘက်အစွန်းတွင်ရှိပြီး မန္တလေးတောင်ခြေအနီး ပုသိမ်ကြီးမြို့နယ် တွင် တည်ရှိပါတယ်။\n
+      ၁၉၉၅ ဒီဇင်ဘာ ၂၀ ရက်နေ့မှာ ဝန်ကြီးချုပ် ဦးနုမှ Government Technical Institute (GTI) အဖြစ်စတင်ဖွင့်လှစ်ပေးခဲ့သောကြောင့် ယခုဆိုရင်ဖြင့် နှစ်ပေါင်း ၆၄ နှစ်တာ ကာလသို့ ရောက်ရှိလာပြီဖြစ်ပါတယ်။ ၁၉၉၉ August တွင် ယခင် GTI မှ The Government Technical College (GTC)ဟု မြင့်တင်ခဲ့သည်။ ယင်းအမည်မှာ ယခုမျက်မှောက် အထိ လွှမ်းမိုးထားဆဲဖြစ်သည်။ ထိုမှ တဆင့် ၂၀၀၇ ခု ဇန်နဝါရီ ၂၀ ရက်နေ့တွင် လက်ရှိ TUM အဖြစ်သို့ အဆင့်မြင့်တင်ခဲ့သည်။\n
+      &quot; The Road To Knowledge Has No End &quot; မှာ ကျွန်ုပ်တို့ TUM ရဲ့ ဆောင်ပုဒ်ဖြစ်တယ်။ TUM ဟာ ခေတ်မှီ နည်းပညာများ၊အင်ဂျင်နီယာ နဲ့ ဗိသုကာ ပညာရပ်တွေကို လမ်းပြနေသော တက္ကသိုလ်တစ်ခုသဖွယ်ဖြစ်၍ ထိုအရာတွေ သင်ယူချင်သူများကို အမြဲကမ်းလက်ကြိုဆိုနေပါတယ်။ \n
+      ကျွန်ုပ်တို့ TUM ရဲ့ အဓိကရည်ရွယ်ချက်မှာ ဘွဲ့ရရှိပြီးသော ကျောင်းသား/သူတိုင်းသည် ၎င်းတို့သက်ဆိုင်ရာ နယ်ပယ်အသီးသီးမှာ အနာဂတ်ရဲ့ ခေါင်းဆောင်ကောင်းများ ဖြစ်လာစေ ဖို့ရန် ဖြစ်ပါတယ်။\n
+      ကျွန်ုပ်တို့ TUM ကျောင်းကြီးဟာ ဆရာ/ဆရာမ အင်အား ၃၀၀ ကျော်၊ ဝန်ထမ်းအင်အား ၁၀၀ နီးပါးနှင့် ကျောင်းသား ၄၄၀၀ ကျော်ဖြင့်ခုတ်မောင်းနေသော တက္ကသိုလ်ယန္တရား တစ်ခုဖြစ်ပါတယ်။ ကျောင်းမှာ သင်ကြားရေးနဲ့ အထောက်ကူပြု ဆိုပြီးငှာန စုစုပေါင်း ၂၀ ဌာနရှိပါတယ်\n
+
+သင်ကြားရေးဌာနတွေဟာဆိုရင်ဖြင့်\n-
+1.Department of (Civil)  Engineering \n-
+2.Department of (Mechanical) Engineering \n-
+3.Department of (Electronic) Engineering \n-
+4.Department of (Electrical Power) Engineering \n-
+5.Department of (Architecture) Engineering \n-
+6.Department of (Information Technology) Engineering\n-
+7.Department of (Mechatronics) Engineering\n-
+8.Department of (Chemical) Engineering\n-
+9.Department of (Petroleum) Engineering\n-
+10.Department of (Mining) Engineering\n-
+11.Department of Myanmar\n-
+12.Department of English\n-
+13.Department of Mathematics\n-
+14.Department of Physics\n-
+15.Department of Chemistry တို့ဖြစ်ပါတယ်။\n
+       ကွင်းဝိုက်ထားသော ( )1 က နေ 10 ထိမှာ Engineering major များဖြစ်ပြီး ကျန် ၅ ခုမှာ Minor ဘာသာရပ်များဖြစ်ပါတယ်။\n
+အထောက်အကူပြု ဌာနများမှာ\n-
+1.Department of\n-
+Administration\n-
+2.Department of Students Affair\n-
+3.Department of Rector's office\n-
+4.Library\n-
+5.Finance တို့ပါဝင်ပါတယ်။\n\n
+
+        ထို့အပြင် ကျောင်းအတွင်း ကျောင်းသား/သူများ ပေါင်းသင်းဆက်ဆံရေး ၊ လူမှုရေး၊ ပညာရေး၊ဘာသာရေး စသဖြင့် ဘက်ပေါင်းစုံ တိုးတက်မှုရှိစေရန် ကျောင်းတွင်း အသင်းအဖွဲ့အစည်းများလဲ ရှိကြပါတယ်။ ကျောင်းသားများသမဂ္ဂ (TUM SU) ၊ စာပေ-ယဉ်ကျေးမှု-အနုပညာအသင်း၊ ဂီတအသင်း၊ ကြက်ခြေနီအသင်း၊ အနာဂတ် လူငယ်များ အသင်း(Future Youth)၊ လူမှုရေးအသင်း၊ ဗုဒ္ဓဘာသာဝေယျာဝစ္စအသင်း၊ Technological Christian Fellowship အသင်းတို့ ရှိပါတယ်။ \n
+       မေဂျာ အသီးသီးမှလဲ မိမိဘာသာရပ်တိုးတက်ရေးအတွက် ဘာသာရပ် အသင်းများ ဖွဲ့စည်းကြပါတယ်။ Mechatronics အင်ဂျင်နီယာ ဘာသာရပ်အသင်း ၊ မြို့ပြအင်ဂျင်နီယာ ဘာသာရပ်အသင်း၊ သတ္တု တူးဖော်ရေး အင်ဂျင်နီယာ ဘာသာရပ်အသင်း၊  စက်မှု အင်ဂျင်နီယာ ဘာသာရပ်အသင်း၊ သုတနည်းပညာ အင်ဂျင်နီယာ ဘာသာရပ်အသင်း၊ ရေနံ အင်ဂျင်နီယာ ဘာသာရပ်အသင်း စသဖြင့် ဖွဲ့စည်းထားကြပါတယ်။ ယခုဆိုလျှင် ကျောင်းပိတ်ရက် (သို့) အတန်းမရှိချိန်များတွင် ကျောင်းသား အချင်းချင်း ကိုယ်ကျွမ်းကျင် သော ဘာသာရပ်များ၊ ပန်ချီဆွဲခြင်းများ စတဲ့ ပညာရပ် / အနုပညာ တွေကို Sharing လုပ်ပေးတာများ ပေါ်ပေါက်လာခြင်းကို ဝမ်းမြောက်ကြိုဆိုမိပါတယ်။\n
+       အနှစ်ချုပ်အားဖြင့်ဆိုလျှင် သင့်အနေဖြင့် တက္ကသိုလ်မှာ စာကြည့်ဘဲ ပြိုင်ဆိုင် နေမှာထက် ပေါင်းသင်းဆက်ဆံမှု၊ ချစ်ခင်စည်းလုံးမှု၊ ပညာရပ်တွင်သာမက အားကစား၊ သူငယ်ချင်းများ စုပေါင်း Trip ထွက်ခြင်း စသည့် Activities များ ခံစားကြုံဖူးချင်ပါက ကျွန်ုပ် တို့ TUM ကို လာရောက်ဖို့ ဖိတ်ခေါ်လိုက်ရ ပါတယ်။\n"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView3"
+                            android:padding="10dp"
+                            android:paddingTop="0dp"
+                            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                            android:textSize="18sp"/>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

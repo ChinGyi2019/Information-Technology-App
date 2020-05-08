@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:background="@color/colorWhite"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="15dp"
+        app:cardPreventCornerOverlap="false"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardBackgroundColor="@color/cardview_light_background">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/sub_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:textSize="30sp"
+
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+        <TextView
+                android:id="@+id/sub_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eng 1000"
+                android:textSize="20sp"/>
+<!--                android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             tools:context=".fragments.InfromationTechnologyDepartmentFragment"
+                                             android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+            <!-- TODO: Update blank fragment layout -->
+
+            <ImageView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="395dp"
+                    android:text="IT Fragment"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/it_blue_logo"
+                    android:id="@+id/imageView2"
+                    android:padding="3dp"/>
+
+            <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+                <android.support.v7.widget.CardView
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textAlignment="viewStart"
+                            android:text="Information Technology Department"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/it_dep_name"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:textSize="24sp"
+                            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:layout_marginTop="2dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:text="     ကျွန်ုပ်တို့ Information Technology ဌာနကို ၁၉၉၉ မှ အစပြုခဲ့တယ်။ITဌာနမှ ကျောင်းသားတိုင်း ပေါင်းသင်းဆက်ဆံရေးကောင်းရန်၊ကိုယ်ပိုင်အရည်အချင်းများ မြှင့်တင်ရန်နှင့် ITနဲ့ပတ်သက်သော အသိပညာ/အတတ်ပညာများပြည့်ဝလာစေရန်အတွက် အင်ဂျင်နီယာပညာရပ်ဆိုင်ရာများကို သင်ကြားပေးလျက်ရှိပါတယ်။ ကျောင်းသား တစ်ယောက်ချင်း စီတိုင်း IT နဲ့ ပတ်သက်ပြီး  နားလည်စေရန်၊ အရည်အချင်းပြည့်ဝမှု အပေါ် ဌာနမှ အထူးအလေးထားပါတယ်။ အရည်အချင်း မြင့်၍ အတွေ့အကြုံ ပြည့်သော ဆရာ/ဆရာမ (၂၀) ခန့် ဖြင့် ဌာနကို ဖွဲ့စည်းထားပါတယ်။ IT ဌာနတွင် First Year မှ Sixth Year အထိ ကျောင်းသားဦးရေ ၃၂၀ ခန့် ပညာဆည်းပူးနေပါတယ်။\n
+   ယနေ့မှာ IT ပညာရပ်တွေဟာ ခေတ်ရေစီးကြောင်းနဲ့အညီ မျက်စိတမှိတ် အတွင်းမှာ လျှင်မြန်စွာပြောင်းလဲနေတာ ဖြစ်ပါတယ်။ ကျွန်ုပ်တို့ IT ဌာနမှလဲ ပြောင်းလဲနေသော ပညာရေး နှင့်အညီ သင်ကြားမှုတွေကို အမြဲတစေ မြှင့်တင်ပြီး IT နဲ့ပတ်သက်၍ ကျောင်းသား/သူ များ ကောင်းမွန်စွာ နားလည်စေရန် သင်ကြားလျက်ရှိပါတယ်။
+ဥပမာအနေ ဖြင့် Digital and Electronic, Network Communication, Computer System,Distributed Systems, Programming  Software Engineering, Database Signal Processing, Control စတဲ့ ခေတ်မှီဘာသာရပ်များကို သင်ကြားပေးနေပါတယ်။\n
+  ကျွနု်ပ်တို့IT ဌာန၏ဆောင်ပုဒ်မှာ &quot; IT makes The Life Of Human Beings Comfortable And Communications Bring Them Together &quot; ဖြစ်သည်။\n
+  ဌာန အနေဖြင့် ကျောင်းသူ/သားများကို စိတ်ကူးဉာဏ်ကွန်မြူ းမှုနဲ့ ရှာဖွေတွေ့  ရှိမှုများတွင် အခြေခံထားသောIT အင်ဂျင်နီယာဘာသာရပ်များကို စနစ်တကျ လေ့ကျင့်ပေးရန်နှင့် ဖန်တီးမှု နဲ့အရည်ချင်းပြည့်သော IT professionals များ မွေးထုတ်ပေးရန် ရည်ရွယ်ပါတယ်။ Tutorial, Assignment, Lab,Pratical ,Workshop စသည်တို့ဖြင့်ဘာသာရပ်များကို သင်ကြားပေးနေပါတယ်။ Industry Training , Job Training , Field Study, Project Research စတဲ့ အတွေ့ကြုံ များကိုလဲ ဖော်ဆောင်လျက်ရှိပါတယ်။ \n
+  ဌာနက ပေးအပ်မည့် ဘွဲ့အနေကတော့ Bechalor of Engineering (IT) နဲ့ Master of Engineering (IT) ဆိုပြီးဖြစ်ပါတယ်။ B.E(IT) ဘွဲ့ဟာဆိုရင်ဖြင့် ၆ နှစ် သင်ကြား အောင်မြင်ရမည်ဖြစ်ပြီး၊ ထို့နောက် အရည်အချင်း ပြည့်မှီပါက (Qualified) M.E(IT) ကိုဆက်လက် တက်ရောက် သင်ယူရနိုင်မယ်ဖြစ်သည်။\n
+  Dr.Moe Moe Aye [ Proffessor, Ph.D (IT) ] သည်  IT Dep ဌာနမှူ း ဖြစ်ပြီး Distributed Systems, Data Mining, Information Retrieval, Software Development တွေမှာ ကျွမ်းကျင် စိတ်ဝင်စားပါတယ်။\n
+\nContact :\n
+Phone(+95)-09-256171530 | 09-965492422 \n
+Email: moeaye25@gmail.com,\n
+it.tumdy@gmail.com,\n
+it_dept@tum-mandalay.edu.mm \n \n
+  အချ ု ပ်အားဖြင့် (Personal Review) ကျွန်ုပ်တို့ မြန်မာနိုင်ငံသည် ပြောင်းလဲမှ ုအရွေ့တခုကိုဦးတည်ကာ ကြိုးပမ်းဆောင်ရွက်နေချိန် ဖြစ်သည်။ထိုထဲတွင် IT နည်းပညာသည် လဲ ချန်ထား၍ မရသောအရာတခု ဖြစ်သည်။ကျွန်ုပ်တို့ IT Dep မှလဲ ပြိုင်ပွဲများဝင်ရောက်ယှဉ်ပြိုင်ပြီး ဆုတံဆိပ်များရရှိလာနေပြီ ဖြစ်ပါသည်။ လက်ရှိ အနာဂတ်တွင် ပါရမီရှိသော ကြိုးစားနေကြသော ညီ/ညီမငယ် များကို တွေ့မြင်ရ၍ ဝမ်းမြောက်ရသည်။\n
+  ထို့ကြောင့် ယခု တက်ရောက်လာမယ့် ညီ/ညီမငယ်များသည် IT ကို စိတ်ဝင်စား၍ ဖြစ်စေ၊ အမှတ်မှီ၍ ရောက်လာသည်ဖြစ်စေ ကိုယ်လက်ရှိ ရောက်နေသော အချိန်/နေရာမှာကြို းစားကြဖို့ တိုက်တွန်းရင်းဖြင့် ကျွန်ုပ်တို့ IT မိသားစုမှ ဝမ်းမြောက်စွာ ကြိုဆိုနေပါတယ်။\n"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView3"
+                            android:padding="10dp"
+                            android:paddingTop="0dp"
+                            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+                            android:textSize="18sp"/>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
