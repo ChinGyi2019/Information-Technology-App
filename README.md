@@ -1,7 +1,7 @@
 # Information-Technology Android App
 <h2>Information-Technology App</h2>
 
-<p>It's one of my student projects in recent years ago. It's an informational and educational app for firsty year students to know informations about in our university' majors.
+<p>It's one of my student projects in recent years ago. It's an informational and educational app for firsty year students to know informations about in our university' majors It can support ZawGyi~Uni Code.
 Thanks to my friends in my Team.</p>
 
 <p> <img name = "Home Screen I" src="https://github.com/ChinGyi2019/MovieApp--Android-CleanArchitecture-/blob/main/dummy/it/224148885_156904296545834_6101921908021020061_n.jpg" width="200" height="400" />
